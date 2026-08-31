@@ -1,12 +1,12 @@
-import React from 'react';
 import './App.css';
+import Button from './Components/Button/Button';
 
 function App() {
-
-  return React.createElement('div', {}, 'проект');
-  // return (
-  //   <div>Проект</div>
-  // );
+  <>
+    <h1>Заголовок</h1>
+    <p>Какой-то тест</p>
+    <Button></Button>
+  </>
 }
 
 export default App;
