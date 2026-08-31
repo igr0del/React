@@ -1,5 +1,9 @@
+import './button.css';
+
 function Button() {
-    <button>Сохранить</button>
+    return (
+        <button className='button accent'>Сохранить</button>
+    )
 };
 
 export default Button;
