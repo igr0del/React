@@ -26,4 +26,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    overflow: hidden;
+}
+
+.journal-item__body {
+    display: flex;
+    gap: 10px;
 }
