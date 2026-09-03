@@ -1,9 +1,6 @@
 import './JournalItem.css';
 
-function JournalItem() {
-    const title = 'Подготовка макетов приложения';
-    const date = new Date();
-    const text = 'Надо сделать мобильную и десктопную версию';
+function JournalItem({title, text, date}) {
 
     return (
         <div className="journal-item">
