@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './Components/Button/Button';
 import JournalItem from './Components/JournalItem/JournalItem';
+import CardButton from './Components/CardButton/CardButton';
 
 function App() {
     const data = [
@@ -21,11 +22,13 @@ function App() {
       <h1>Заголовок</h1>
       <p>Какой-то тест</p>
       <Button/>
-      <JournalItem
-        title={data[0].title}
-        text={data[0].text}
-        date={data[0].date}
-      />
+      <CardButton>
+        <JournalItem
+          title={data[0].title}
+          text={data[0].text}
+          date={data[0].date}
+        />
+      </CardButton>
     </>
   )
 }
