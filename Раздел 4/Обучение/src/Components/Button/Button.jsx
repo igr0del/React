@@ -1,15 +1,18 @@
 import './button.css';
 
 function Button() {
+    let text = 'Сохранить';
     const clicked = () => {
+        text = 'Закрыть';
         console.log('Привет!');
+        console.log(text);
     }
 
     return (
         <button 
             onClick={() => {clicked}}
             className='button accent'>
-                Сохранить
+                (text)
         </button>
     )
 };
